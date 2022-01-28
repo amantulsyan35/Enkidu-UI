@@ -1,0 +1,19 @@
+/* @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700'); */
+
+@import url('components/avatar.css');
+@import url('components/alert.css');
+
+/* GLOBAL STYLES */
+
+:root {
+  --online-avatar-color: #38a169;
+  --offline-avatar-color: #ff6347;
+  --success-background-color: #c6f6d5;
+  --warning-background-color: #feebc8;
+  --error-background-color: #fed7d7;
+  --info-background-color: #bee3f8;
+  --error-icon-color: #ff6347;
+  --success-icon-color: #38a169;
+  --warning-icon-color: #dd6b20;
+  --info-icon-color: #3182ce;
+}

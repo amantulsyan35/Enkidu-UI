@@ -1,0 +1,42 @@
+.alert {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5rem;
+  width: 40rem;
+  height: 1rem;
+  font-size: 1.1rem;
+  gap: 1rem;
+}
+
+.alert-error {
+  background-color: var(--error-background-color);
+}
+
+.alert-icon-error {
+  color: var(--error-icon-color);
+}
+
+.alert-success {
+  background-color: var(--success-background-color);
+}
+
+.alert-icon-success {
+  color: var(--success-icon-color);
+}
+
+.alert-warning {
+  background-color: var(--warning-background-color);
+}
+
+.alert-icon-warning {
+  color: var(--warning-icon-color);
+}
+
+.alert-info {
+  background-color: var(--info-background-color);
+}
+
+.alert-icon-info {
+  color: var(--info-icon-color);
+}
