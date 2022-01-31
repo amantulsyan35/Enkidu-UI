@@ -4,6 +4,7 @@
 @import url('components/alert.css');
 @import url('components/badge.css');
 @import url('components/button.css');
+@import url('components/card.css');
 
 /* GLOBAL STYLES */
 
@@ -21,11 +22,11 @@
   --primary-button: #bee3f8;
   --secondary-button: #c6f6d5;
 }
-
+/* 
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-}
+} */
