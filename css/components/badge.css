@@ -91,9 +91,9 @@
 .icon-badge-icon-sm {
   width: 0.7rem;
   height: 0.7rem;
-  top: -4px;
-  right: -4px;
-  font-size: 10px;
+  top: -0.4rem;
+  right: -0.2rem;
+  font-size: 0.5rem;
 }
 
 /* BADGE FOR MD ICONS */
@@ -105,9 +105,9 @@
 .icon-badge-icon-md {
   width: 1rem;
   height: 1rem;
-  top: -4.5px;
-  right: -4.5px;
-  font-size: 10px;
+  top: -0.3rem;
+  right: -0.4rem;
+  font-size: 0.5rem;
 }
 
 /* BADGE FOR LG ICONS */
@@ -119,7 +119,7 @@
 .icon-badge-icon-lg {
   width: 1.5rem;
   height: 1.5rem;
-  top: -5.5px;
-  right: -5.5px;
-  font-size: 15px;
+  top: -0.6rem;
+  right: -0.4rem;
+  font-size: 0.7rem;
 }
