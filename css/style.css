@@ -1,5 +1,16 @@
 /* @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700'); */
 
+@font-face {
+  font-family: 'Segoe UI Bold';
+  font-weight: 700;
+  src: local('Segoe UI Bold');
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI');
+}
+
 @import url('components/avatar.css');
 @import url('components/alert.css');
 @import url('components/badge.css');
@@ -22,10 +33,96 @@
   --secondary-button: #c6f6d5;
 }
 
+* {
+  margin: 0;
+  box-sizing: border-box;
+  /* font-size: 100%; */
+}
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  margin-top: 3rem;
 }
+
+.library-title {
+  font-family: 'Segoe UI Bold';
+  font-size: 3.1rem;
+  line-height: 9.1rem;
+  color: var(--info-icon-color);
+  opacity: 0.6;
+}
+
+.library-sub-title {
+  font-family: 'Segoe UI';
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.library-description {
+  font-size: 1.2rem;
+}
+
+.library-description a {
+  text-decoration: none;
+  color: var(--info-icon-color);
+}
+
+.socials-container {
+  display: flex;
+  justify-content: center;
+  width: 25rem;
+  margin-top: 2rem;
+}
+
+.socials {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.socials:nth-child(3) {
+  background-color: var(--info-icon-color);
+  border: none;
+}
+
+.socials a {
+  text-decoration: none;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.social-icon {
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.socials:hover {
+  border: 1px solid var(--info-icon-color);
+}
+
+.socials:nth-child(3):hover {
+  background-color: var(--info-background-color);
+  border: none;
+  color: white;
+}
+
+.socials:nth-child(3) a {
+  color: white;
+}
+
+.socials:nth-child(3) a:hover {
+  color: white;
+}
+
+/* .socials a:hover {
+  color: var(--info-icon-color);
+}
+
+.social-icon:hover {
+  color: var(--info-icon-color);
+} */
