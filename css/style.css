@@ -2,6 +2,8 @@
 
 @import url('components/avatar.css');
 @import url('components/alert.css');
+@import url('components/badge.css');
+@import url('components/button.css');
 
 /* GLOBAL STYLES */
 
@@ -16,4 +18,14 @@
   --success-icon-color: #38a169;
   --warning-icon-color: #dd6b20;
   --info-icon-color: #3182ce;
+  --primary-button: #bee3f8;
+  --secondary-button: #c6f6d5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }

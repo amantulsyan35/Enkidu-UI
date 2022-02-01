@@ -1,0 +1,125 @@
+.badge {
+  position: relative;
+}
+
+.badge-icon {
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: var(--info-background-color);
+}
+
+/* BADGE FOR XS AVATARS */
+
+.badge-xs {
+  width: 3rem;
+}
+
+.badge-icon-xs {
+  width: 1rem;
+  height: 1rem;
+  top: 0;
+  right: 0;
+  font-size: 0.5rem;
+}
+
+/* BADGE FOR SM AVATARS */
+
+.badge-sm {
+  width: 5rem;
+}
+
+.badge-icon-sm {
+  width: 1.5rem;
+  height: 1.5rem;
+  top: 0;
+  right: 0;
+}
+
+/* BADGE FOR MD AVATARS */
+
+.badge-md {
+  width: 7rem;
+}
+
+.badge-icon-md {
+  width: 2rem;
+  height: 2rem;
+  top: 0;
+  right: 0;
+}
+
+/* BADGE FOR LG AVATARS */
+
+.badge-lg {
+  width: 9rem;
+}
+
+.badge-icon-lg {
+  width: 3rem;
+  height: 3rem;
+  top: 0;
+  right: 0;
+}
+
+/* BADDGES ON ICONS */
+/* ----------------------------------------------- */
+
+.icon-badge {
+  position: relative;
+}
+
+.icon-badge-icon {
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: var(--info-background-color);
+}
+
+/* BADGE FOR MD ICONS */
+
+.icon-badge-sm {
+  width: 1.3rem;
+}
+
+.icon-badge-icon-sm {
+  width: 0.7rem;
+  height: 0.7rem;
+  top: -0.4rem;
+  right: -0.2rem;
+  font-size: 0.5rem;
+}
+
+/* BADGE FOR MD ICONS */
+
+.icon-badge-md {
+  width: 3rem;
+}
+
+.icon-badge-icon-md {
+  width: 1rem;
+  height: 1rem;
+  top: -0.3rem;
+  right: -0.4rem;
+  font-size: 0.5rem;
+}
+
+/* BADGE FOR LG ICONS */
+
+.icon-badge-lg {
+  width: 5rem;
+}
+
+.icon-badge-icon-lg {
+  width: 1.5rem;
+  height: 1.5rem;
+  top: -0.6rem;
+  right: -0.4rem;
+  font-size: 0.7rem;
+}
