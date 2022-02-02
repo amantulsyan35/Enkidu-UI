@@ -1,4 +1,7 @@
-/* @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700'); */
+@import url('components/avatar.css');
+@import url('components/alert.css');
+@import url('components/badge.css');
+@import url('components/button.css');
 
 @font-face {
   font-family: 'Segoe UI Bold';
@@ -10,11 +13,6 @@
   font-family: 'Segoe UI';
   src: local('Segoe UI');
 }
-
-@import url('components/avatar.css');
-@import url('components/alert.css');
-@import url('components/badge.css');
-@import url('components/button.css');
 
 /* GLOBAL STYLES */
 
@@ -36,7 +34,10 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  /* font-size: 100%; */
+}
+
+ul {
+  list-style-type: none;
 }
 
 .container {
@@ -119,10 +120,10 @@
   color: white;
 }
 
-/* .socials a:hover {
+.socials a:hover {
   color: var(--info-icon-color);
 }
 
 .social-icon:hover {
   color: var(--info-icon-color);
-} */
+}
