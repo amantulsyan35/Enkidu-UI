@@ -2,6 +2,7 @@
 @import url('components/alert.css');
 @import url('components/badge.css');
 @import url('components/button.css');
+@import url('components/card.css');
 
 @font-face {
   font-family: 'Segoe UI Bold';
@@ -30,6 +31,7 @@
   --primary-button: #bee3f8;
   --secondary-button: #c6f6d5;
 }
+<<<<<<< HEAD
 
 * {
   margin: 0;
@@ -40,11 +42,15 @@ ul {
   list-style-type: none;
 }
 
+=======
+/* 
+>>>>>>> cards
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   margin-top: 3rem;
 }
 
@@ -127,3 +133,7 @@ ul {
 .social-icon:hover {
   color: var(--info-icon-color);
 }
+=======
+  width: 100%;
+} */
+>>>>>>> cards
