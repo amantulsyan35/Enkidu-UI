@@ -119,6 +119,7 @@ main {
   display: flex;
   align-items: center;
   gap: 1rem;
+  flex-wrap: nowrap;
   margin-bottom: 2rem;
 }
 
