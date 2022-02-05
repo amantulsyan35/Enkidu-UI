@@ -3,6 +3,8 @@
 @import url('components/badge.css');
 @import url('components/button.css');
 @import url('components/card.css');
+@import url('components/image.css');
+@import url('components/input.css');
 
 @font-face {
   font-family: 'Segoe UI Bold';
@@ -31,6 +33,7 @@
   --primary-button: #bee3f8;
   --secondary-button: #c6f6d5;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 * {
@@ -137,3 +140,5 @@ ul {
   width: 100%;
 } */
 >>>>>>> cards
+=======
+>>>>>>> images-and-inputs
