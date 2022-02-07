@@ -7,6 +7,7 @@
 @import url('components/input.css');
 @import url('components/navigation.css');
 @import url('components/lists.css');
+@import url('components/typography.css');
 
 @font-face {
   font-family: 'Segoe UI Bold';
