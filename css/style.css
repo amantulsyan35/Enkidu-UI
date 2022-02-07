@@ -6,6 +6,7 @@
 @import url('components/image.css');
 @import url('components/input.css');
 @import url('components/navigation.css');
+@import url('components/lists.css');
 
 @font-face {
   font-family: 'Segoe UI Bold';
@@ -41,7 +42,6 @@
 }
 
 ul {
-  list-style-type: none;
   font-family: 'Segoe UI';
 }
 
