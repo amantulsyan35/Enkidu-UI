@@ -15,30 +15,33 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h2>Navigation</h2>
+    <h2>Form Input</h2>
 
-    <nav class="nav-container">
-      <div class="nav-logo">
-        <a href="./index.html">[ &#128296;, &#128119;]</a>
+    <form class="form">
+      <div class="form-group">
+        <label><b>EMAIL</b></label>
+        <input type="email" placeholder="Enter your email" />
       </div>
-      <div class="nav-search">
-        <i class="fas fa-search"></i>
-        <input type="search" placeholder="search" />
+      <div class="form-group">
+        <label><b>PASSWORD</b></label>
+        <input type="password" placeholder="Enter your password" />
       </div>
-      <div class="nav-links-container">
-        <ul class="nav-links">
-          <li>
-            <a href="https://github.com/amantulsyan35/neog_comp_lib">
-              <i class="far fa-heart nav-icon"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/at_aman35">
-              <i class="fas fa-shopping-cart nav-icon"></i>
-            </a>
-          </li>
-        </ul>
+      <div class="form-desc">
+        <div class="form-remember">
+          <input type="checkbox" />
+          <label>Remember me</label>
+        </div>
+        <a>Forgot your Password?</a>
       </div>
-    </nav>
+      <div class="form-button">
+        <button class="btn btn-icon btn-secondary">
+          <i class="fas fa-comment-alt"></i>
+          sign in
+        </button>
+      </div>
+      <div class="form-footer">
+        <a>Create New Account</a>
+      </div>
+    </form>
   </body>
 </html>
