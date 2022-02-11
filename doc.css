@@ -33,6 +33,10 @@ nav {
   grid-area: nav;
 }
 
+nav ul {
+  list-style-type: none;
+}
+
 .nav-logo {
   padding: 0.3rem;
   cursor: pointer;
