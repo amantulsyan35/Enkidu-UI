@@ -13,6 +13,17 @@ a {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Segoe UI Bold';
+  font-weight: 700;
+  src: local('Segoe UI Bold');
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI');
+}
+
 .container-template {
   display: grid;
   min-height: 100vh;

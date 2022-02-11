@@ -1,0 +1,7 @@
+.rating-star {
+  color: #ffd675;
+  font-size: 1.5rem;
+}
+.rating-container span {
+  cursor: pointer;
+}
