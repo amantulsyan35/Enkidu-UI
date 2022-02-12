@@ -1,0 +1,113 @@
+.toast-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  padding: 0.5rem;
+}
+
+.toast-wrapper {
+  display: none;
+  width: 35rem;
+  height: auto;
+  padding: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  justify-content: space-around;
+  background-color: white;
+  font-size: 1.4rem;
+  align-items: center;
+}
+
+.toast-leading,
+.toast-baseline {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+.toast-baseline {
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.toast-leading {
+  left: 1rem;
+}
+
+.toast-stack {
+  padding: 1rem;
+  flex-direction: column;
+  height: auto;
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.toast-stack-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.toast-text {
+  min-width: 15rem;
+}
+
+.toast-btn-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toast-stack-btn-container {
+  /* justify-content: space-between; */
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  width: 15rem;
+  margin-left: auto;
+}
+
+.toast-btn {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  border-radius: 50%;
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+}
+.toast-retry {
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.5rem;
+  width: 3rem;
+  background-color: var(--primary-button);
+  box-shadow: none;
+  outline: none;
+  border: none;
+  outline: none;
+}
+
+.toast-stack-retry {
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: var(--primary-button);
+  box-shadow: none;
+  outline: none;
+  border: none;
+  outline: none;
+}
+
+.toast-baseline-close,
+.toast-leading-close {
+  transition: all 0.2s ease-in-out;
+  font-weight: 100;
+}
