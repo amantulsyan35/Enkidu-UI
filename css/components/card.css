@@ -187,6 +187,10 @@
   color: var(--error-icon-color);
 }
 
+.prod-card-wishlist:hover .prod-wishlisted {
+  color: var(--error-icon-color);
+}
+
 .prod-card-body {
   padding: 1rem;
   display: flex;
