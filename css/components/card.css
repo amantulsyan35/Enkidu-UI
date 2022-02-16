@@ -187,7 +187,7 @@
   color: var(--error-icon-color);
 }
 
-.prod-card-wishlist:hover .prod-wishlisted {
+.prod-card-wishlist .prod-wishlisted {
   color: var(--error-icon-color);
 }
 
