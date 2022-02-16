@@ -145,3 +145,66 @@
   margin-top: 0.3rem;
   letter-spacing: 0.2rem;
 }
+
+/* PRODUCT CARDS */
+
+.prod-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 17rem;
+}
+
+.prod-card-hero {
+  width: 100%;
+  position: relative;
+  height: 10rem;
+}
+
+.prod-card-hero img {
+  width: 100%;
+  height: 100%;
+}
+
+.prod-card-wishlist {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  padding: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  cursor: pointer;
+  top: 5px;
+  right: 5px;
+}
+
+.prod-card-wishlist:hover .prod-wishlist-icon {
+  color: var(--error-icon-color);
+}
+
+.prod-card-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.prod-card-footer {
+  height: 100%;
+}
+
+.prod-card-button {
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  background-color: var(--primary-button);
+}
