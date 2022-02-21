@@ -182,7 +182,7 @@ main {
   display: flex;
   align-items: center;
   gap: 1rem;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin-bottom: 2rem;
 }
 
